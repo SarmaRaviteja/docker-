@@ -1,0 +1,11 @@
+
+execute this command " ls -la " and go to vim .bash.rc file and paste the below content
+
+export JAVA_HOME=/usr/lib/jvm/java-17-amazon-corretto.x86_64
+export PATH=$JAVA_HOME/bin:$PATH
+export M2_HOME=/opt/apache-maven-3.8.6
+export PATH=$M2_HOME/bin:$PATH
+
+after pasting the above lines run the file with the following command
+
+source ./bashrc

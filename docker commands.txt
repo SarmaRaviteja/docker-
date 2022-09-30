@@ -1,0 +1,16 @@
+what is a container?
+
+container is a running environmnet for image. It contains {File system, application image and Environment logs}
+
+The port number for container is : 5000
+
+Command to pull any image from docker hub is shown below:
+Ex: "docker pull redia"
+
+"docker images"  is the command to see what are the images present locally.
+
+Use "docker image push" to share your images to the Docker Hub registry or to a self-hosted one.
+
+docker start container id - to start the container.
+
+docker stop container id - to stop the container
